@@ -276,7 +276,7 @@ A good starting point is to copy the code in `sampleProgram4.c` to `simpleShell.
     * *or* use `execlp()/execle()` as in the example call below.
       Note: in this case you must pass a fixed *list* of arguments.
 
-* Additional requirement:
+* **Additional requirement**:
   find and use the appropriate system call to collect *resource usage* statistics
   about each executed process
 
