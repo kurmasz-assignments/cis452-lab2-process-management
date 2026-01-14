@@ -66,15 +66,15 @@ which provides you with the UNIX command line interface.
 
 * compile and run Sample Program 1
 
-1. how many lines are printed by the program?
-2. describe what is happening to produce the answer observed for the above
+1. How many lines are printed by the program?
+2. Describe what is happening to produce the answer observed for the above
    question
 
-* insert a 10-second call to the function `sleep()` after the fork in Sample
+* Insert a 10-second call to the function `sleep()` after the fork in Sample
   Program 1 and recompile
-* run Program 1 in the background (use `&`)
+* Run Program 1 in the background (use `&`)
 
-3. consult the man pages for the `ps` (process status) utility;
+3. Consult the man pages for the `ps` (process status) utility;
    they will help you determine how to display and interpret the various types
    of information that is reported.
    Look especially for "verbose mode" or "long format".
@@ -186,9 +186,9 @@ int main()
   making use of the pre-declared variables referenced in the `printf()`
   statement.
 
-7. provide the exact line of code that you inserted for the `wait()` system
+7. Provide the exact line of code that you inserted for the `wait()` system
    call.
-8. who prints first, the child or the parent?  Why? Describe the interaction between 
+8. Who prints first, the child or the parent?  Why? Describe the interaction between 
    the `exit()` function and the `wait()` system call.
    You may want to experiment by changing the value to better understand the
    interaction.
@@ -238,12 +238,12 @@ int main(int argc, char* argv[])
 
 **Perform the following operations and answer the questions:**
 
-* compile, run and test Sample Program 4 using various commands
+* Compile, run and test Sample Program 4 using various commands
   (e.g., "`date`", "`ls`")
 
-8. when is the second print line ("`After the exec`") printed?
+8. When is the second print line ("`After the exec`") printed?
    Explain your answer.
-9. explain how the second argument passed to `execvp()` is used?
+9. Explain how the second argument passed to `execvp()` is used?
 
 ### Lab Programming Assignment (Simple Shell)
 
@@ -277,7 +277,7 @@ A good starting point is to copy the code in `sampleProgram4.c` to `simpleShell.
       Note: in this case you must pass a fixed *list* of arguments.
 
 * **Additional requirement**:
-  find and use the appropriate system call to collect *resource usage* statistics
+  Find and use the appropriate system call to collect *resource usage* statistics
   about each executed process
 
     * output the "user CPU time used" for *each* individual child process
