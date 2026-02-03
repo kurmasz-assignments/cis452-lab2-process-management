@@ -184,7 +184,8 @@ int main()
   and `exit()`.
   Basically, implement the comments,
   making use of the pre-declared variables referenced in the `printf()`
-  statement.
+  statement. **Note**: The print statement should print the child's exit value. Look closely and make 
+  sure the correct value is printed. 
 
 7. Provide the exact line of code that you inserted for the `wait()` system
    call.
