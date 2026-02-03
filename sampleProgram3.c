@@ -25,6 +25,7 @@ int main() {
       /* insert an appropriate form of the exit() function here */
    } else {
       /* insert an appropriate form of the wait() system call here */
+      /* Be sure the printf below prints the value passed to exit above. */
       printf("Child PID %ld terminated with return status %d\n", (long)child, status);
    }
    return 0;
