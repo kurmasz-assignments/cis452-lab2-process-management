@@ -242,9 +242,9 @@ int main(int argc, char* argv[])
 * Compile, run and test Sample Program 4 using various commands
   (e.g., "`date`", "`ls`")
 
-8. When is the second print line ("`After the exec`") printed?
+9. When is the second print line ("`After the exec`") printed?
    Explain your answer.
-9. Explain how the second argument passed to `execvp()` is used?
+10. Explain how the second argument passed to `execvp()` is used?
 
 ### Lab Programming Assignment (Simple Shell)
 
@@ -292,7 +292,7 @@ A good starting point is to copy the code in `sampleProgram4.c` to `simpleShell.
   line (`;`),
   all of which a fully-featured shell would handle.
 
-10. Have your shell run `sampleProgram2` using an input large enough 
+11. Have your shell run `sampleProgram2` using an input large enough 
    to produce interleaved output. Why does your shell's report get mixed up 
   with the program output even though the shell `wait`s for the process? 
 
